@@ -1,0 +1,46 @@
+package servlet;
+
+public class OfertaV {
+	private String nom, prec, nomV, docu;
+	public OfertaV() {
+		this.nom = "";
+		this.prec = "";
+		this.nomV = "";
+		this.docu = "";
+	}
+	public OfertaV(String nom, String prec, String nomV, String docu) {
+		this.nom = nom;
+		this.prec = prec;
+		this.nomV = nomV;
+		this.docu = docu;
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getPrec() {
+		return prec;
+	}
+	public void setPrec(String prec) {
+		this.prec = prec;
+	}
+	public String getNomV() {
+		return nomV;
+	}
+	public void setNomV(String nomV) {
+		this.nomV = nomV;
+	}
+	public String getDocu() {
+		return docu;
+	}
+	public void setDocu(String docu) {
+		this.docu = docu;
+	}
+	@Override
+	public String toString() {
+		return "OfertaV [Producto=" + nom + ", precio=" + prec + ", nombre Vendedor=" + nomV + "]";
+	}
+	
+}

@@ -1,0 +1,47 @@
+package servlet;
+
+public class Producto {
+	private String nom, nomU, docu;
+	private int prec;
+	public Producto() {
+		this.nom = "";
+		this.prec = 0;
+		this.nomU = "";
+		this.docu = "";
+	}
+	public Producto(String nom, int prec, String nomU, String docu) {
+		this.nom = nom;
+		this.prec = prec;
+		this.nomU = nomU;
+		this.docu = docu;
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public Integer getPrec() {
+		return prec;
+	}
+	public void setPrec(int prec) {
+		this.prec = prec;
+	}
+	public String getnomU() {
+		return nomU;
+	}
+	public void setnomU(String nomU) {
+		this.nomU = nomU;
+	}
+	public String getDocu() {
+		return docu;
+	}
+	public void setDocu(String docu) {
+		this.docu = docu;
+	}
+	@Override
+	public String toString() {
+		return "Producto [Producto=" + this.nom + ", precio=" + String.valueOf(this.prec) + ", nombre Usuario=" + nomU + "]";
+	}
+	
+}

@@ -1,0 +1,5 @@
+1,Philadelphia,12
+2,California,7
+3,Ojo de Tigre,23
+4,Arigato,20
+5,Ebi Tempura,20
